@@ -1,0 +1,14 @@
+Motivation:  using the docker runtime would allow us to put the docker runtime already in ZMI (which is so far unclear if we may do that with Docker desktop). Also the endusers will not need to have a License for Docker Desktop.
+We should investigate how much effort it would be to use the docker runtime instead of docker desktop:
+Check if this works for example along those lines (or something newer)
+https://medium.com/@rom.bruyere/docker-and-wsl2-without-docker-desktop-f529d15d9398
+https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers
+https://docs.docker.com/engine/install/ubuntu/ 
+Check if docker desktop can be installed off-line?
+Are there any changes to compatibilities compared to Docker Desktop?
+GPU access needs to work
+List potential down-sides of using the runtime compared to docker desktop
+Get a rough effort estimation of implementing docker runtime
+How stable is the installation procedure for different Windows Versions? 
+
+See attached example PS script.
